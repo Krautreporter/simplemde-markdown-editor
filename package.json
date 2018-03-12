@@ -1,19 +1,20 @@
 {
     "name": "simplemde",
-    "version": "1.11.2",
+    "version": "1.11.3",
     "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.",
     "keywords": [
         "embeddable",
         "markdown",
-        "editor",
-        "javascript",
-        "fontawesome"
+        "editor"
     ],
     "main": "./src/js/simplemde.js",
     "license": "MIT",
-    "author": "Jeroen Akkerman",
+    "author": "Gregory Igelmund",
     "bugs": {
-        "url": "https://github.com/ionaru/simplemde-markdown-editor/issues"
+        "url": "https://github.com/krautreporter/simplemde-markdown-editor/issues"
+    },
+    "scripts": {
+      "build": "gulp"
     },
     "dependencies": {
         "codemirror": "^5.32.0",
@@ -34,6 +35,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ionaru/simplemde-markdown-editor"
+        "url": "https://github.com/krautreporter/simplemde-markdown-editor"
     }
 }
